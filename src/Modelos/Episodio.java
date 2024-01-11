@@ -1,5 +1,5 @@
 package Modelos;
-
+import Calculos.Classificavel;
 public class Episodio {
     private int numero;
     private String nome;
