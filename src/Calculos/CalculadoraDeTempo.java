@@ -1,3 +1,7 @@
+package calculos;
+
+import modelos.Filme;
+import modelos.Serie;
 import modelos.Titulo;
 
 public class CalculadoraDeTempo {
