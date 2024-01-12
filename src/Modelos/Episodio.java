@@ -1,6 +1,8 @@
-package Modelos;
-import Calculos.Classificavel;
-public class Episodio {
+package modelos;
+
+import calculos.Classificavel;
+
+public class Episodio implements Classificavel {
     private int numero;
     private String nome;
     private Serie serie;

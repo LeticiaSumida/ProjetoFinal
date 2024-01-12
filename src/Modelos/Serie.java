@@ -1,4 +1,4 @@
-package Modelos;
+package modelos;
 
 public class Serie extends Titulo {
     private int temporadas;
@@ -41,10 +41,5 @@ public class Serie extends Titulo {
     @Override
     public int getDuracaoEmMinutos() {
         return temporadas * episodiosPorTemporada * minutosPorEpisodio;
-    }
-
-    @Override
-    public int getClassificacao() {
-        return 0;
     }
 }
