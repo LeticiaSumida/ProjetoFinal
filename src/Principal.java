@@ -1,8 +1,8 @@
-import Calculos.CalculadoraDeTempo;
-import Calculos.FiltroRecomendacao;
-import Modelos.Episodio;
-import Modelos.Filme;
-import Modelos.Serie;
+import calculos.CalculadoraDeTempo;
+import calculos.FiltroRecomendacao;
+import modelos.Episodio;
+import modelos.Filme;
+import modelos.Serie;
 
 import java.util.ArrayList;
 

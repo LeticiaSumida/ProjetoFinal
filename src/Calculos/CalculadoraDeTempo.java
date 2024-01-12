@@ -1,7 +1,4 @@
-package Calculos;
-import Modelos.Filme;
-import Modelos.Serie;
-import Modelos.Titulo;
+import modelos.Titulo;
 
 public class CalculadoraDeTempo {
     private int tempoTotal;

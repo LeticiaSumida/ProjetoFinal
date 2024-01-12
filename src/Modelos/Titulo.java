@@ -1,6 +1,6 @@
-package Modelos;
+package modelos;
 
-public abstract class Titulo {
+public class Titulo {
     private String nome;
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
@@ -43,6 +43,7 @@ public abstract class Titulo {
     public void setDuracaoEmMinutos(int duracaoEmMinutos) {
         this.duracaoEmMinutos = duracaoEmMinutos;
     }
+
     public void exibeFichaTecnica(){
         System.out.println("Nome do filme: " + nome);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
@@ -56,6 +57,4 @@ public abstract class Titulo {
     public double pegaMedia(){
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
-
-    public abstract int getClassificacao();
 }
