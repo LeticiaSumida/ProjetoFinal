@@ -77,8 +77,5 @@ public class PrincipalComBusca {
         escrita.close();
 
         System.out.println("O programa finalizou corretamente");
-
-
-        
     }
 }
